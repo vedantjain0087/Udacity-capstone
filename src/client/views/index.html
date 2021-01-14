@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Project - Capstone</title>
+        <meta name="description" content="Example" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+        <header class="header">
+            <div class="header__logo">
+                Project - Capstone
+            </div>
+        </header>
+        <main>
+            <h2>Enter the location you are travelling</h2>
+            <section class="form-container">
+                <form class="form-container__form">
+                    <input class="form-container__form--form-field" id="location" type="text" name="location" value="" placeholder="Enter location">
+                    <label for="date">Start Date</label>
+                    <input class="form-container__form--form-field" id="date" type="date" name="date" value="">
+                    <label for="date_end">End Date</label>
+                    <input class="form-container__form--form-field" id="date_end" type="date" name="date" value="">
+                    <input class="form-container__form--form-button" type="submit" name="submit"id="submit" value="submit">
+                </form>
+            </section>
+            <section class="results-wrapper form-container">
+                <div class="results-wrapper__loader" id="loader">Loading Please wait....</div>
+                <div class="results-wrapper__loader" id="error"></div>
+                <div class="results-wrapper__results" id="results">
+                    <h3 id="banner"></h3>
+                    <div>
+                        <strong><u>Sunrise:</u> </strong><span id="sunrise"></span>
+                    </div>
+                    <div>
+                        <strong><u>Sunset:</u> </strong><span id="sunset"></span>
+                    </div>
+                    <div>
+                        <strong><u>Weather:</u> </strong><span id="weather"></span>
+                    </div>
+                    <div>
+                        <img id="image"/>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2020 Made by Vedant Jain</p>
+        </footer>
+    </body>
+</html>

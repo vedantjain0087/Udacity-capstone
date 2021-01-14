@@ -1,0 +1,34 @@
+main {
+    width: 100%;
+    padding: 0 1.5rem 3rem;
+    box-sizing: border-box;
+    & h2 {
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+
+.form-container {
+    max-width: 450px;
+    margin: 50px auto;
+    &__form {
+        @include flex-box(column);
+        label {
+            margin-top: 10px;
+        }
+        &--form-field{
+            padding:20px 10px;
+        }
+        &--form-button {
+            background-color: $primary;
+            color: $white;
+            border:0;
+            padding:10px;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+        &--form-button:hover {
+            background-color: $primary-hover;
+        }
+    }
+}

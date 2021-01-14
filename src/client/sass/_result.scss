@@ -1,0 +1,17 @@
+.results-wrapper {
+    margin-top: 20px;
+    &__loader {
+        display: none;
+    }
+    &__results {
+        margin-top: 10px;
+        display: none;
+        & div {
+            margin-top: 10px;
+        }
+    }
+}
+
+img {
+    max-width: 100%;
+}

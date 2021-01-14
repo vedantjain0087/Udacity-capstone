@@ -1,0 +1,14 @@
+export const localUrl = "http://localhost:8080/";
+export const gnomeApi = "http://api.geonames.org/geoCodeAddressJSON?username=vedantjain0087&q=";
+export const weatherBitApi = "https://api.weatherbit.io/v2.0/current?key=2f60e710a43644a488ce149bd52cf511&";
+export const weatherBitForecastApi = "https://api.weatherbit.io/v2.0/forecast/daily?key=2f60e710a43644a488ce149bd52cf511&";
+export const pixBayApi = "https://pixabay.com/api/?key=16647400-6d4eb41f42bf3cd8a0a0d6277&image_type=photo&q=";
+export const button = document.getElementById('submit');
+export const loader = document.getElementById('loader');
+export const results = document.getElementById('results');
+export const error = document.getElementById('error');
+export const sunrise = document.getElementById('sunrise');
+export const sunset = document.getElementById('sunset');
+export const weather = document.getElementById('weather');
+export const banner = document.getElementById('banner');
+export const image = document.getElementById('image');
